@@ -1,0 +1,7 @@
+# CONSULTA 4: Todos los directores
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT DISTINCT ?director
+WHERE {
+  ?pelicula cine:director ?director .
+}

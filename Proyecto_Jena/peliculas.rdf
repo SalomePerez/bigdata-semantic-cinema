@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cine="http://www.cinecolombia.com/peliculas#">
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula1">
+        <cine:titulo>Destino Final: Lazos de Sangre</cine:titulo>
+        <cine:genero>Terror</cine:genero>
+        <cine:director>Zach Lipovsky</cine:director>
+        <cine:actor>Brec Bassinger</cine:actor>
+        <cine:duracion>110</cine:duracion>
+        <cine:clasificacion>+15</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-05-15</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula2">
+        <cine:titulo>Misión Imposible: Sentencia Final</cine:titulo>
+        <cine:genero>Acción</cine:genero>
+        <cine:director>Christopher McQuarrie</cine:director>
+        <cine:actor>Tom Cruise</cine:actor>
+        <cine:duracion>165</cine:duracion>
+        <cine:clasificacion>+12</cine:clasificacion>
+        <cine:idioma>Inglés</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-05-23</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula3">
+        <cine:titulo>Minecraft: La Película</cine:titulo>
+        <cine:genero>Aventura</cine:genero>
+        <cine:director>Jared Hess</cine:director>
+        <cine:actor>Jason Momoa</cine:actor>
+        <cine:duracion>100</cine:duracion>
+        <cine:clasificacion>+7</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-04-04</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula4">
+        <cine:titulo>Wicked: Parte 2</cine:titulo>
+        <cine:genero>Musical</cine:genero>
+        <cine:director>Jon M. Chu</cine:director>
+        <cine:actor>Cynthia Erivo</cine:actor>
+        <cine:duracion>155</cine:duracion>
+        <cine:clasificacion>+7</cine:clasificacion>
+        <cine:idioma>Inglés</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-11-25</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula5">
+        <cine:titulo>El Conjuro: El Último Rito</cine:titulo>
+        <cine:genero>Terror</cine:genero>
+        <cine:director>Michael Chaves</cine:director>
+        <cine:actor>Vera Farmiga</cine:actor>
+        <cine:duracion>125</cine:duracion>
+        <cine:clasificacion>+15</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-09-05</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula6">
+        <cine:titulo>Avatar: Fuego y Ceniza</cine:titulo>
+        <cine:genero>Ciencia Ficción</cine:genero>
+        <cine:director>James Cameron</cine:director>
+        <cine:actor>Sam Worthington</cine:actor>
+        <cine:duracion>190</cine:duracion>
+        <cine:clasificacion>+12</cine:clasificacion>
+        <cine:idioma>Inglés</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-12-18</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula7">
+        <cine:titulo>Encanto 2</cine:titulo>
+        <cine:genero>Animación</cine:genero>
+        <cine:director>Jared Bush</cine:director>
+        <cine:actor>Stephanie Beatriz</cine:actor>
+        <cine:duracion>105</cine:duracion>
+        <cine:clasificacion>Todo Público</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Colombia</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-11-24</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula8">
+        <cine:titulo>Rápidos y Furiosos 11</cine:titulo>
+        <cine:genero>Acción</cine:genero>
+        <cine:director>Louis Leterrier</cine:director>
+        <cine:actor>Vin Diesel</cine:actor>
+        <cine:duracion>140</cine:duracion>
+        <cine:clasificacion>+12</cine:clasificacion>
+        <cine:idioma>Inglés</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-04-02</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula9">
+        <cine:titulo>La Monja 3</cine:titulo>
+        <cine:genero>Terror</cine:genero>
+        <cine:director>Michael Chaves</cine:director>
+        <cine:actor>Taissa Farmiga</cine:actor>
+        <cine:duracion>115</cine:duracion>
+        <cine:clasificacion>+15</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-09-08</cine:estreno>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.cinecolombia.com/peliculas#pelicula10">
+        <cine:titulo>Shrek 5</cine:titulo>
+        <cine:genero>Animación</cine:genero>
+        <cine:director>Walt Dohrn</cine:director>
+        <cine:actor>Mike Myers</cine:actor>
+        <cine:duracion>95</cine:duracion>
+        <cine:clasificacion>Todo Público</cine:clasificacion>
+        <cine:idioma>Español</cine:idioma>
+        <cine:pais>Estados Unidos</cine:pais>
+        <cine:anio>2026</cine:anio>
+        <cine:estreno>2026-07-01</cine:estreno>
+    </rdf:Description>
+
+</rdf:RDF>

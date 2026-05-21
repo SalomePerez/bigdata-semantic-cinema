@@ -1,0 +1,10 @@
+# CONSULTA 10: Películas con su director y actor principal
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo ?director ?actor
+WHERE {
+  ?pelicula cine:titulo ?titulo ;
+            cine:director ?director ;
+            cine:actor ?actor .
+}
+ORDER BY ?titulo

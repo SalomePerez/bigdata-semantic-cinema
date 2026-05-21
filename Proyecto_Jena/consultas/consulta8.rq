@@ -1,0 +1,7 @@
+# CONSULTA 8: Contar total de películas
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT (COUNT(?pelicula) AS ?cantidad)
+WHERE {
+  ?pelicula cine:titulo ?titulo .
+}

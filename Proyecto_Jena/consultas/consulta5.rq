@@ -1,0 +1,10 @@
+# CONSULTA 5: Películas con duración mayor a 120 minutos
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo ?duracion
+WHERE {
+  ?pelicula cine:titulo ?titulo ;
+            cine:duracion ?duracion .
+  FILTER(?duracion > 120)
+}
+ORDER BY DESC(?duracion)

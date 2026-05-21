@@ -1,0 +1,8 @@
+# CONSULTA 6: Películas con clasificación +15
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo ?clasificacion
+WHERE {
+  ?pelicula cine:titulo ?titulo ;
+            cine:clasificacion "+15" .
+}

@@ -1,0 +1,7 @@
+# CONSULTA 1: Todas las películas
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo
+WHERE {
+  ?pelicula cine:titulo ?titulo .
+}

@@ -1,0 +1,8 @@
+# CONSULTA 3: Películas en español
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo
+WHERE {
+  ?pelicula cine:titulo ?titulo ;
+            cine:idioma "Español" .
+}

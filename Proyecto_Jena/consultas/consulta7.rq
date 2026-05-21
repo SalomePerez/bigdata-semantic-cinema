@@ -1,0 +1,8 @@
+# CONSULTA 7: Películas ordenadas alfabéticamente
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo
+WHERE {
+  ?pelicula cine:titulo ?titulo .
+}
+ORDER BY ?titulo

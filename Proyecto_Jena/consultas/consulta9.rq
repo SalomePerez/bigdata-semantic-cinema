@@ -1,0 +1,8 @@
+# CONSULTA 9: Géneros únicos disponibles
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT DISTINCT ?genero
+WHERE {
+  ?pelicula cine:genero ?genero .
+}
+ORDER BY ?genero

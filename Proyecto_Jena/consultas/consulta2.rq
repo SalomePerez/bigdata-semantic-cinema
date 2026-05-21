@@ -1,0 +1,8 @@
+# CONSULTA 2: Películas de acción
+PREFIX cine: <http://www.cinecolombia.com/peliculas#>
+
+SELECT ?titulo
+WHERE {
+  ?pelicula cine:titulo ?titulo ;
+            cine:genero "Acción" .
+}
