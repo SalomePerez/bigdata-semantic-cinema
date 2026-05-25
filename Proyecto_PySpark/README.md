@@ -1,7 +1,7 @@
 # Proyecto Análisis Big Data - Cine Colombia
 ## Apache PySpark + Python
 
-### 📋 Descripción
+### Descripción
 Este proyecto implementa un análisis Big Data sobre películas en cartelera de Cine Colombia utilizando Apache PySpark para procesamiento distribuido y escalable.
 
 ### 🛠️ Tecnologías Utilizadas
@@ -10,7 +10,7 @@ Este proyecto implementa un análisis Big Data sobre películas en cartelera de 
 - **Pandas**: Manipulación de datos para visualización
 - **Matplotlib**: Generación de gráficos estadísticos
 
-### 📁 Estructura del Proyecto
+### Estructura del Proyecto
 ```
 Proyecto_PySpark/
 │
@@ -23,7 +23,7 @@ Proyecto_PySpark/
 └── README.md
 ```
 
-### 🎬 Dataset
+### Dataset
 El archivo `peliculas.csv` contiene 20 películas con los siguientes campos:
 - **titulo**: Nombre de la película
 - **genero**: Categoría (Terror, Acción, Animación, etc.)
@@ -35,7 +35,7 @@ El archivo `peliculas.csv` contiene 20 películas con los siguientes campos:
 - **pais**: País de origen
 - **anio**: Año de producción
 
-### 🚀 Instalación
+### Instalación
 
 #### 1. Instalar dependencias
 ```bash
@@ -53,7 +53,7 @@ java -version
 python analisis.py
 ```
 
-### 📊 Análisis Implementados
+### Análisis Implementados
 
 #### Análisis 1: Distribución por Género
 ```python
@@ -82,7 +82,7 @@ Filtra películas con duración mayor a 120 minutos.
 - Análisis específico de terror
 - Películas en español
 
-### 🔍 Componentes Clave de PySpark
+### Componentes Clave de PySpark
 
 #### SparkSession
 ```python
@@ -134,7 +134,7 @@ df.select(avg("duracion"))
 - Optimización automática
 - Manejo eficiente de grandes volúmenes
 
-### 📈 Resultados Esperados
+### Resultados Esperados
 
 ```
 ============================================================
@@ -158,7 +158,7 @@ ANÁLISIS 1: Distribución de películas por género
 ...
 ```
 
-### 🎯 Ventajas de PySpark sobre Python Tradicional
+### Ventajas de PySpark sobre Python Tradicional
 
 #### Python Tradicional
 ```python
@@ -185,7 +185,7 @@ df.filter(col("duracion") > 120).count()
 - ✅ Lazy evaluation para mejor rendimiento
 - ✅ Tolerancia a fallos automática
 
-### 📊 Visualizaciones Generadas
+### Visualizaciones Generadas
 
 #### 1. Gráfico de Barras - Películas por Género
 ![Películas por Género](resultados/peliculas_por_genero.png)
@@ -193,7 +193,7 @@ df.filter(col("duracion") > 120).count()
 #### 2. Gráfico Circular - Películas por Idioma
 ![Películas por Idioma](resultados/peliculas_por_idioma.png)
 
-### 🔬 Conceptos Clave de Big Data
+### Conceptos Clave de Big Data
 
 #### Procesamiento Distribuido
 Los datos se dividen en particiones y se procesan en paralelo en múltiples nodos.
@@ -207,7 +207,7 @@ Motor de optimización que analiza y mejora automáticamente las consultas antes
 #### Shuffle
 Redistribución de datos entre particiones necesaria para operaciones como `groupBy()`.
 
-### 🎓 Análisis Académico
+### Análisis Académico
 
 #### ¿Por qué PySpark?
 1. **Escalabilidad**: Procesa desde MB hasta PB de datos
@@ -222,7 +222,7 @@ Redistribución de datos entre particiones necesaria para operaciones como `grou
 - Spotify: Análisis de preferencias musicales
 - Amazon: Análisis de comportamiento de compra
 
-### 📝 Conclusiones
+### Conclusiones
 
 Este proyecto demuestra:
 ✅ Implementación de procesamiento Big Data con PySpark
@@ -232,7 +232,7 @@ Este proyecto demuestra:
 ✅ Ventajas sobre procesamiento tradicional
 ✅ Aplicación práctica en dominio de entretenimiento
 
-### 🔗 Integración con Proyecto Jena
+### Integración con Proyecto Jena
 
 Este proyecto complementa el proyecto de Base de Datos Semántica (Apache Jena) creando un **ecosistema completo**:
 
@@ -241,6 +241,6 @@ Este proyecto complementa el proyecto de Base de Datos Semántica (Apache Jena) 
 
 Ambos trabajan sobre el mismo dominio: **Películas de Cine Colombia**
 
-### 👨‍💻 Autor
+### Autor
 Proyecto académico - Análisis Big Data
 Cine Colombia - 2026
